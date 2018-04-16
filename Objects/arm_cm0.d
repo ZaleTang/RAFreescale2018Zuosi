@@ -1,0 +1,15 @@
+.\objects\arm_cm0.o: cpu\arm_cm0.c
+.\objects\arm_cm0.o: .\common\common.h
+.\objects\arm_cm0.o: .\cpu\arm_cm0.h
+.\objects\arm_cm0.o: .\user\kea128_config.h
+.\objects\arm_cm0.o: M:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\arm_cm0.o: .\user\SKEAZ1284.h
+.\objects\arm_cm0.o: .\RTE\Device\Include\core_cm0plus.h
+.\objects\arm_cm0.o: .\RTE\Device\Include\core_cmInstr.h
+.\objects\arm_cm0.o: .\RTE\Device\Include\cmsis_armcc.h
+.\objects\arm_cm0.o: .\RTE\Device\Include\core_cmFunc.h
+.\objects\arm_cm0.o: .\cpu\system_SKEAZ1284.h
+.\objects\arm_cm0.o: .\user\iar.h
+.\objects\arm_cm0.o: .\common\assert.h
+.\objects\arm_cm0.o: .\common\startup.h
+.\objects\arm_cm0.o: .\common\stdlib.h
