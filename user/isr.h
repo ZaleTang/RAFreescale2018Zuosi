@@ -18,7 +18,7 @@
 extern void RTC_Isr(void);
 */
 
-/*
+
 #undef  VECTOR_038
 #define VECTOR_038 PIT0_ISR
 #undef  VECTOR_039
@@ -42,7 +42,7 @@ extern void KBI1_Isr(void);
 extern void UART0_ISR(void);
 extern void UART1_ISR(void);
 extern void UART2_ISR(void);
-*/
+
 #endif  //__ISR_H
 
 /* End of "isr.h" */

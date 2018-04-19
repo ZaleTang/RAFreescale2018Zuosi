@@ -1,4 +1,4 @@
-#include "isr.h"
+#include "include.h"
 
 
 //串口0接收中断服务例程
@@ -50,9 +50,40 @@ void UART2_IRQHandler(void)
 //定时器0中断函数
 void PIT_CH0_IRQHandler(void)
 {
-  PIT->CHANNEL[0].TFLG |= PIT_TFLG_TIF_MASK;//清楚中断标志位
-  LED_Ctrl(LEDALL,LEDRVS);
-  
+
+
+	int feedback=0,ia=0;
+	//uint8  txt[30]="X:",adt[30]="0",adt1[30]="0";
+	PIT->CHANNEL[0].TFLG |= PIT_TFLG_TIF_MASK;//清楚中断标志位
+	
+  //LED_Ctrl(LEDALL,LEDRVS);
+		
+  //LCD_Init();
+	feedback=FTM_count_get(CFTM1);
+    
+    kp[0]=200+feedback/2.3;
+    kd[0]=(float)feedback*3.8;
+	DirectionControl();
+
+	/*
+
+		for(ia=0;ia<5;ia++)
+			{
+				sprintf((char*)txt,"AD%02d:%04d  ",ia,AD_Data[ia]);
+				sprintf((char*)adt,"fvalue=%04d ",fvalue);
+				sprintf((char*)adt1,"cha=%04d he=%04d",AD_cha,AD_he);
+				
+				//Uart_SendString(UARTR2,txt);
+					//LED_Ctrl(LEDALL,LEDOFF);
+				if(!(ia%2))
+					LCD_P6x8Str((1*(ia%2)),(ia/2),txt);
+				else
+					LCD_P6x8Str((64*(ia%2)),(ia/2),txt);
+				LCD_P6x8Str(0,4,adt1);
+			
+			LCD_P6x8Str(3,5,adt);
+			}
+			*/
 }
 
 //定时器1中断函数

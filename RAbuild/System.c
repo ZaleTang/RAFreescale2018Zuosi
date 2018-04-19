@@ -1,5 +1,14 @@
 #include <include.h>
-
+uint8 MR1[30]="Motor Initializing...",
+			MR2[30]="Motor Initialized     ",
+			DR1[30]="Data Initializing...",
+			DR2[30]="Data Initialized     ",
+			LEDR1[30]="LED Initializing...",
+			LEDR2[30]="LED Initialized     ",
+			LCDR1[30]="LCD Initializing...",
+			LCDR2[30]="LCD Initialized     ",
+			PR1[30]="PIT Starting...",
+			PR2[30]="PIT Started    ";
 /*************************************************************************
 *  函数名称:SystermInit
 *  功能说明：系统初始化
@@ -9,13 +18,29 @@
 
 void SystermInit()
 {
+	LCD_Init();
+	LCD_P6x8Str(0,0,LCDR2);
+	time_delay_ms(200);
+	LCD_P6x8Str(0,1,MR1);
   FTM_init();
-  DATAinit();
+	time_delay_ms(200);
+	LCD_P6x8Str(0,1,MR2);
+  LCD_P6x8Str(0,2,DR1);
+	DATAinit();
+	time_delay_ms(200);
+	LCD_P6x8Str(0,2,DR2);
+	LCD_P6x8Str(0,3,LEDR1);
 	LED_Init();
+	time_delay_ms(200);
+	LCD_P6x8Str(0,3,LEDR2);
 	
-	time_delay_ms(1000);
+	LCD_P6x8Str(0,4,PR1);
+	//PIT_Init(PIT_CHANNEL0,10);
+	//time_delay_ms(200);
+	
+	LCD_P6x8Str(0,4,PR2);
 	LED_Ctrl(LEDALL,LEDON);
-	time_delay_ms(1000);
+	//time_delay_ms(200);
 	LED_Ctrl(LEDALL,LEDOFF);
 	
 }
@@ -34,8 +59,10 @@ void DATAinit()
   uint8_t i;
   fg=FP;
   for(i=0;i<5;i++)
+	{
     ADvalue[i]=0;
-  
+		AD_Data[i]=0;
+	}
   for(i=0;i<3;i++)
   {
     kp[i]=0;ki[i]=0;kp[i]=0;
@@ -46,6 +73,9 @@ void DATAinit()
   last_value=0;
   feror=0;
   last_err=0;
+	
+	AD_cha=0;
+	AD_he=0;
 
 }
 

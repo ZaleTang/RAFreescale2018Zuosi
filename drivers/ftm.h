@@ -19,7 +19,7 @@ extern FTM_Type * FTMx[3] ;
 * Macros
 ******************************************************************************/
   
-#define FTM_PRECISON               1000  
+#define FTM_PRECISON               2000  
 #define FTMx_CV(ftmx,ch,cv)        FTMx[ftmx]->CONTROLS[ch].CnV = cv  ;
   
 #define FTM_INPUTCAPTURE_RISINGEDGE           1     /*!< rising edge */

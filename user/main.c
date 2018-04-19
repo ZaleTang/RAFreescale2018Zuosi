@@ -114,13 +114,56 @@ UART2_TX        I0
 =============================================================*/
 
 #include "include.h"
+uint8 SR[30]="System is ready to go ",
+			SR1[30]="                           ",
+			SR2[30]="                           ";
+
+int min()
+{
+		int feedback=0,ia;
+	
+	uint8  txt[30]="X:",adt[30]="0",adt1[30]="0";
+	DisableInterrupts ;                  //禁止中断    
+  EnableInterrupts;
+	//TestPIT();
+	SystermInit();
+	
+	
+	Motor_spd(300,300);
+	LCD_P6x8Str(1,0,SR);
+	LCD_P6x8Str(1,1,SR1);
+	LCD_P6x8Str(1,2,SR1);
+  LCD_Fill(0x00);  //初始清屏
+  LCD_Set_Pos(0,0);  
+	while(1)
+	{
+			for(ia=0;ia<5;ia++)
+			{
+				sprintf((char*)txt,"AD%02d:%04d  ",ia,AD_Data[ia]);
+				sprintf((char*)adt,"fvalue=%04d ",fvalue);
+				sprintf((char*)adt1,"cha=%04d he=%04d",AD_cha,AD_he);
+				Uart_SendString(UARTR2,txt);
+      if(!(ia%2))
+        LCD_P6x8Str((1*(ia%2)),(ia/2),txt);
+      else
+       LCD_P6x8Str((64*(ia%2)),(ia/2),txt);
+			LCD_P6x8Str(0,4,adt1);
+			LCD_P6x8Str(3,5,adt);
+			}
+		}
+	LCD_P6x8Str(1,0,SR);
+}
 
 int main(void)
 {  
 	
-		int ia,ja;
-	uint16_t temp=0,ka[9]={0x00,0xff,0,0,0,0,0,0xff,0x00};
-	int ca[5];
+  uint8  txt[30]="X:",adt[30]="0",adt1[30]="0";
+  uint16 ad[16] = {0},ADvalue[5]={0};  
+	int ia,cv,cv1,he,cha;
+	float adca,adtc[5]={0,0,0,0,0};
+		int admax[5]={110,110,110,110,110},
+			admin[5]={10,10,10,10,10};
+	
 	//uint8_t cc[350]="aaaaaaaa";
   DisableInterrupts ;                  //禁止中断    
   EnableInterrupts;    
@@ -141,52 +184,81 @@ int main(void)
   //TestRTC();//LED闪烁，同时OLED上显示时间，单位秒
 	
 	FTM_init();
+	LCD_Init();
 	
-	Motor_spd(200,200);
+	Motor_spd(300,300);
 
 	LED_Init();
 	//LED1 blue
-	time_delay_ms(1000);
-	LED_Ctrl(LEDALL,LEDON);
-	time_delay_ms(1000);
-	LED_Ctrl(LEDALL,LEDOFF);
 
 
 
-//	SystemInit();
+	
+
 	uart_init(UARTR2,Remap,9600);
 	LED_Ctrl(LED4,LEDON);
 	time_delay_ms(500);
 	LED_Ctrl(LED4,LEDOFF);
-
+	
 	//int ca=0;
 		while(1)
 		{
-			FTM_PWM_Duty(CFTM1,FTM_CH1,100);
+			/*
 			LED_Ctrl(LED3,LEDON);
 			time_delay_ms(500);
 			LED_Ctrl(LED3,LEDOFF);
 			//ka[0]=0xdd;
-			ca[0]=adc_ave(ADC_CHANNEL_AD4,ADC_12BIT,10);
-			ca[1]=adc_ave(ADC_CHANNEL_AD6,ADC_12BIT,10);
-			ca[2]=adc_ave(ADC_CHANNEL_AD7,ADC_12BIT,10);
-			ca[3]=adc_ave(ADC_CHANNEL_AD15,ADC_12BIT,10);
-			ca[4]=adc_ave(ADC_CHANNEL_AD14,ADC_12BIT,10);
+			/*
+			ca[0]=adc_once(ADC_CHANNEL_AD4,ADC_12BIT);
+			ca[1]=adc_once(ADC_CHANNEL_AD6,ADC_12BIT);
+			ca[2]=adc_once(ADC_CHANNEL_AD7,ADC_12BIT);
+			ca[3]=adc_once(ADC_CHANNEL_AD15,ADC_12BIT);
+			ca[4]=adc_once(ADC_CHANNEL_AD14,ADC_12BIT);
+			*/
 			//ka[6]=0xdd;
+			
+			//Uart_SendChar(UARTR2,ca[0]);
+			getsig(ad);
+			for(ia=0;ia<5;ia++)
+			{
+				if (ad[ia]>admax[ia])
+					ad[ia]=admax[ia];
+				if (ad[ia]<admin[ia])
+					ad[ia]=admin[ia];
+				ADvalue[ia]=(float)(400*(ad[ia]-admin[ia])/(admax[ia]-admin[ia]));
+				//ADvalue[ia]=(float)(adtc[ia])*400;
+			}
+			cha=ADvalue[2]+ADvalue[0]-ADvalue[3]-ADvalue[4];
+			he=ADvalue[0]+ADvalue[2]+ADvalue[3]+ADvalue[4];
+			
+			//adca=(float)(cha/he);//0.3
+			
+			cv1=(int)((cha*40)/he);
+			
+			cv=(int)(adca*40);
+		
+			
 			
 			
 			for(ia=0;ia<5;ia++)
 			{
-			//Uart_SendChar(UARTR2,0);
-			Uart_SendChar(UARTR2,ca[ia]);
-			//Uart_SendChar(UARTR2,0);
+				sprintf((char*)txt,"AD%02d:%04d  ",ia,ADvalue[ia]);
+				sprintf((char*)adt,"cv=%04d cv1=%04d",cv,cv1);
+				sprintf((char*)adt1,"cha=%04d he=%04d",cha,he);
+				Uart_SendString(UARTR2,txt);
+      if(!(ia%2))
+        LCD_P6x8Str((1*(ia%2)),(ia/2),txt);
+      else
+       LCD_P6x8Str((64*(ia%2)),(ia/2),txt);
+			LCD_P6x8Str(0,4,adt1);
+			LCD_P6x8Str(3,5,adt);
 			}
-			Uart_SendChar(UARTR2,0000);
+		/*	
 			LED_Ctrl(LEDALL,LEDON);
 			time_delay_ms(500);
 			LED_Ctrl(LEDALL,LEDOFF);
-				time_delay_ms(1000);
-			
+		*/
+				car_direct(-cv1);
 		}
 	
 		

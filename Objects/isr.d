@@ -1,5 +1,4 @@
 .\objects\isr.o: user\isr.c
-.\objects\isr.o: user\isr.h
 .\objects\isr.o: user\include.h
 .\objects\isr.o: M:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
 .\objects\isr.o: M:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h

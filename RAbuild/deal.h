@@ -20,7 +20,7 @@ typedef enum
 extern FLAG fg;
 
 //´æ´¢Îå¸öµç¸ĞÖµµÄÊı¾İ£¬´òËã´Ó×óµ½ÓÒ0,1,2,3,4ÅÅĞò
-extern uint16_t ADvalue[5];
+extern uint16_t ADvalue[5],AD_Data[5],AD_cha,AD_he;
 
 //xjbĞ´µÄ£¬ÓÃÓÚÔÚ²»ÖªµÀÌõ¼şÊ±±àÒë³ÌĞò²»±¨´í£
 extern uint8_t condition;

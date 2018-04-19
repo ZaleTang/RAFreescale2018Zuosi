@@ -50,7 +50,9 @@ void TestPIT(void)
 
   LED_Init();
   LED_Ctrl(LEDALL, LEDON);
-  PIT_Init(PIT_CHANNEL0,500);//定时500MS
+  PIT_Init(PIT_CHANNEL0,5);//定时500MS
+	//time_delay_ms(1000);
+	LED_Ctrl(LEDALL, LEDOFF);
   while(1)
   {
   }

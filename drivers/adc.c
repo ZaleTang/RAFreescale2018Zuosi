@@ -133,7 +133,7 @@ void TestADC(void)
   LCD_Init();  
   while(1)
   { 
-    for(i=4;i<8;i++)
+    for(i=0;i<5;i++)
     {
       ad[i]=adc_once((ADCHn)i,ADC_12BIT);
       sprintf((char*)txt,"AD%02d:%04d",i,ad[i]);
@@ -143,6 +143,7 @@ void TestADC(void)
       else
        LCD_P6x8Str((64*(i%2)),(i/2),txt);
     }
+		/*
     for(i=12;i<16;i++)
     {
       ad[i]=adc_once((ADCHn)i,ADC_12BIT);
@@ -153,7 +154,9 @@ void TestADC(void)
       else
        LCD_P6x8Str((64*(i%2)),(i/2),txt);
     }
+		*/
     time_delay_ms(5);
+		while(1);
   }
 }
 

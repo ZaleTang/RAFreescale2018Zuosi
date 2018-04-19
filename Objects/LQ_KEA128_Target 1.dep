@@ -26,7 +26,7 @@ I (.\drivers\gpio.h)(0x5A1B839C)
 I (.\drivers\gpio_icf.h)(0x5A1B839C)
 I (.\drivers\pit.h)(0x5A1B839C)
 I (.\drivers\adc.h)(0x5A1B839C)
-I (.\drivers\ftm.h)(0x5A1BE9CA)
+I (.\drivers\ftm.h)(0x5AD858A0)
 I (.\drivers\kbi.h)(0x5A1B839C)
 I (.\drivers\i2c.h)(0x5A1B839C)
 I (.\drivers\spi.h)(0x5A1B839C)
@@ -37,7 +37,7 @@ I (.\drivers\wdog.h)(0x5A1B839C)
 I (.\drivers\sim.h)(0x5A1BAF98)
 I (.\drivers\pmc.h)(0x5A1B839C)
 I (user\LQ12864.h)(0x5A1BEC84)
-I (user\isr.h)(0x5A1D1786)
+I (user\isr.h)(0x5AD87DCD)
 I (user\LQLED.h)(0x5A1B839C)
 I (user\LQKEY.h)(0x5A1B839C)
 I (user\LQ9AX.h)(0x5A1B839C)
@@ -47,13 +47,12 @@ I (user\MPU6050.h)(0x5A1B839C)
 I (user\Serial_oscilloscope.h)(0x5A1BCBA6)
 I (user\8700_2100.h)(0x5A1BEB82)
 I (.\RAbuild\System.h)(0x5ACDF156)
-I (.\RAbuild\Motor.h)(0x5AD1E05F)
-I (.\RAbuild\getsig.h)(0x5A9D5F5A)
-I (.\RAbuild\deal.h)(0x5ACDF1A1)
-I (.\RAbuild\spit.h)(0x5ACDF025)
+I (.\RAbuild\Motor.h)(0x5AD8887E)
+I (.\RAbuild\getsig.h)(0x5AD89B7D)
+I (.\RAbuild\deal.h)(0x5AD87853)
+I (.\RAbuild\spit.h)(0x5AD88308)
 I (.\RAbuild\bt.h)(0x5ACDF4D8)
-F (.\user\isr.c)(0x5ACDF025)(-c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I .\common -I .\cpu -I .\drivers -I .\user -I .\RTE\Device\Include -I .\RAbuild-I.\RTE\_Target_1-IM:\Keil_v5\ARM\PACK\Keil\Kinetis_KEAxx_DFP\1.3.0\Device\Include-IM:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSKEAZ128xxx4 -DTRK_KEA128 -DCPU_KEA128 -DIAR-o .\objects\isr.o --omf_browse .\objects\isr.crf --depend .\objects\isr.d)
-I (user\isr.h)(0x5A1D1786)
+F (.\user\isr.c)(0x5AD88DE7)(-c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I .\common -I .\cpu -I .\drivers -I .\user -I .\RTE\Device\Include -I .\RAbuild-I.\RTE\_Target_1-IM:\Keil_v5\ARM\PACK\Keil\Kinetis_KEAxx_DFP\1.3.0\Device\Include-IM:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSKEAZ128xxx4 -DTRK_KEA128 -DCPU_KEA128 -DIAR-o .\objects\isr.o --omf_browse .\objects\isr.crf --depend .\objects\isr.d)
 I (user\include.h)(0x5ACDF4D8)
 I (M:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x588B8344)
 I (M:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588B8344)
@@ -80,7 +79,7 @@ I (.\drivers\gpio.h)(0x5A1B839C)
 I (.\drivers\gpio_icf.h)(0x5A1B839C)
 I (.\drivers\pit.h)(0x5A1B839C)
 I (.\drivers\adc.h)(0x5A1B839C)
-I (.\drivers\ftm.h)(0x5A1BE9CA)
+I (.\drivers\ftm.h)(0x5AD858A0)
 I (.\drivers\kbi.h)(0x5A1B839C)
 I (.\drivers\i2c.h)(0x5A1B839C)
 I (.\drivers\spi.h)(0x5A1B839C)
@@ -91,6 +90,7 @@ I (.\drivers\wdog.h)(0x5A1B839C)
 I (.\drivers\sim.h)(0x5A1BAF98)
 I (.\drivers\pmc.h)(0x5A1B839C)
 I (user\LQ12864.h)(0x5A1BEC84)
+I (user\isr.h)(0x5AD87DCD)
 I (user\LQLED.h)(0x5A1B839C)
 I (user\LQKEY.h)(0x5A1B839C)
 I (user\LQ9AX.h)(0x5A1B839C)
@@ -100,10 +100,10 @@ I (user\MPU6050.h)(0x5A1B839C)
 I (user\Serial_oscilloscope.h)(0x5A1BCBA6)
 I (user\8700_2100.h)(0x5A1BEB82)
 I (.\RAbuild\System.h)(0x5ACDF156)
-I (.\RAbuild\Motor.h)(0x5AD1E05F)
-I (.\RAbuild\getsig.h)(0x5A9D5F5A)
-I (.\RAbuild\deal.h)(0x5ACDF1A1)
-I (.\RAbuild\spit.h)(0x5ACDF025)
+I (.\RAbuild\Motor.h)(0x5AD8887E)
+I (.\RAbuild\getsig.h)(0x5AD89B7D)
+I (.\RAbuild\deal.h)(0x5AD87853)
+I (.\RAbuild\spit.h)(0x5AD88308)
 I (.\RAbuild\bt.h)(0x5ACDF4D8)
 F (.\user\LQ12864.c)(0x5A1D12A4)(-c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I .\common -I .\cpu -I .\drivers -I .\user -I .\RTE\Device\Include -I .\RAbuild-I.\RTE\_Target_1-IM:\Keil_v5\ARM\PACK\Keil\Kinetis_KEAxx_DFP\1.3.0\Device\Include-IM:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSKEAZ128xxx4 -DTRK_KEA128 -DCPU_KEA128 -DIAR-o .\objects\lq12864.o --omf_browse .\objects\lq12864.crf --depend .\objects\lq12864.d)
 I (user\include.h)(0x5ACDF4D8)
@@ -132,7 +132,7 @@ I (.\drivers\gpio.h)(0x5A1B839C)
 I (.\drivers\gpio_icf.h)(0x5A1B839C)
 I (.\drivers\pit.h)(0x5A1B839C)
 I (.\drivers\adc.h)(0x5A1B839C)
-I (.\drivers\ftm.h)(0x5A1BE9CA)
+I (.\drivers\ftm.h)(0x5AD858A0)
 I (.\drivers\kbi.h)(0x5A1B839C)
 I (.\drivers\i2c.h)(0x5A1B839C)
 I (.\drivers\spi.h)(0x5A1B839C)
@@ -143,7 +143,7 @@ I (.\drivers\wdog.h)(0x5A1B839C)
 I (.\drivers\sim.h)(0x5A1BAF98)
 I (.\drivers\pmc.h)(0x5A1B839C)
 I (user\LQ12864.h)(0x5A1BEC84)
-I (user\isr.h)(0x5A1D1786)
+I (user\isr.h)(0x5AD87DCD)
 I (user\LQLED.h)(0x5A1B839C)
 I (user\LQKEY.h)(0x5A1B839C)
 I (user\LQ9AX.h)(0x5A1B839C)
@@ -153,10 +153,10 @@ I (user\MPU6050.h)(0x5A1B839C)
 I (user\Serial_oscilloscope.h)(0x5A1BCBA6)
 I (user\8700_2100.h)(0x5A1BEB82)
 I (.\RAbuild\System.h)(0x5ACDF156)
-I (.\RAbuild\Motor.h)(0x5AD1E05F)
-I (.\RAbuild\getsig.h)(0x5A9D5F5A)
-I (.\RAbuild\deal.h)(0x5ACDF1A1)
-I (.\RAbuild\spit.h)(0x5ACDF025)
+I (.\RAbuild\Motor.h)(0x5AD8887E)
+I (.\RAbuild\getsig.h)(0x5AD89B7D)
+I (.\RAbuild\deal.h)(0x5AD87853)
+I (.\RAbuild\spit.h)(0x5AD88308)
 I (.\RAbuild\bt.h)(0x5ACDF4D8)
 F (.\user\LQKEY.c)(0x5A1E127E)(-c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I .\common -I .\cpu -I .\drivers -I .\user -I .\RTE\Device\Include -I .\RAbuild-I.\RTE\_Target_1-IM:\Keil_v5\ARM\PACK\Keil\Kinetis_KEAxx_DFP\1.3.0\Device\Include-IM:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSKEAZ128xxx4 -DTRK_KEA128 -DCPU_KEA128 -DIAR-o .\objects\lqkey.o --omf_browse .\objects\lqkey.crf --depend .\objects\lqkey.d)
 I (user\include.h)(0x5ACDF4D8)
@@ -185,7 +185,7 @@ I (.\drivers\gpio.h)(0x5A1B839C)
 I (.\drivers\gpio_icf.h)(0x5A1B839C)
 I (.\drivers\pit.h)(0x5A1B839C)
 I (.\drivers\adc.h)(0x5A1B839C)
-I (.\drivers\ftm.h)(0x5A1BE9CA)
+I (.\drivers\ftm.h)(0x5AD858A0)
 I (.\drivers\kbi.h)(0x5A1B839C)
 I (.\drivers\i2c.h)(0x5A1B839C)
 I (.\drivers\spi.h)(0x5A1B839C)
@@ -196,7 +196,7 @@ I (.\drivers\wdog.h)(0x5A1B839C)
 I (.\drivers\sim.h)(0x5A1BAF98)
 I (.\drivers\pmc.h)(0x5A1B839C)
 I (user\LQ12864.h)(0x5A1BEC84)
-I (user\isr.h)(0x5A1D1786)
+I (user\isr.h)(0x5AD87DCD)
 I (user\LQLED.h)(0x5A1B839C)
 I (user\LQKEY.h)(0x5A1B839C)
 I (user\LQ9AX.h)(0x5A1B839C)
@@ -206,10 +206,10 @@ I (user\MPU6050.h)(0x5A1B839C)
 I (user\Serial_oscilloscope.h)(0x5A1BCBA6)
 I (user\8700_2100.h)(0x5A1BEB82)
 I (.\RAbuild\System.h)(0x5ACDF156)
-I (.\RAbuild\Motor.h)(0x5AD1E05F)
-I (.\RAbuild\getsig.h)(0x5A9D5F5A)
-I (.\RAbuild\deal.h)(0x5ACDF1A1)
-I (.\RAbuild\spit.h)(0x5ACDF025)
+I (.\RAbuild\Motor.h)(0x5AD8887E)
+I (.\RAbuild\getsig.h)(0x5AD89B7D)
+I (.\RAbuild\deal.h)(0x5AD87853)
+I (.\RAbuild\spit.h)(0x5AD88308)
 I (.\RAbuild\bt.h)(0x5ACDF4D8)
 F (.\user\LQLED.c)(0x5A1E1AE0)(-c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I .\common -I .\cpu -I .\drivers -I .\user -I .\RTE\Device\Include -I .\RAbuild-I.\RTE\_Target_1-IM:\Keil_v5\ARM\PACK\Keil\Kinetis_KEAxx_DFP\1.3.0\Device\Include-IM:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSKEAZ128xxx4 -DTRK_KEA128 -DCPU_KEA128 -DIAR-o .\objects\lqled.o --omf_browse .\objects\lqled.crf --depend .\objects\lqled.d)
 I (user\include.h)(0x5ACDF4D8)
@@ -238,7 +238,7 @@ I (.\drivers\gpio.h)(0x5A1B839C)
 I (.\drivers\gpio_icf.h)(0x5A1B839C)
 I (.\drivers\pit.h)(0x5A1B839C)
 I (.\drivers\adc.h)(0x5A1B839C)
-I (.\drivers\ftm.h)(0x5A1BE9CA)
+I (.\drivers\ftm.h)(0x5AD858A0)
 I (.\drivers\kbi.h)(0x5A1B839C)
 I (.\drivers\i2c.h)(0x5A1B839C)
 I (.\drivers\spi.h)(0x5A1B839C)
@@ -249,7 +249,7 @@ I (.\drivers\wdog.h)(0x5A1B839C)
 I (.\drivers\sim.h)(0x5A1BAF98)
 I (.\drivers\pmc.h)(0x5A1B839C)
 I (user\LQ12864.h)(0x5A1BEC84)
-I (user\isr.h)(0x5A1D1786)
+I (user\isr.h)(0x5AD87DCD)
 I (user\LQLED.h)(0x5A1B839C)
 I (user\LQKEY.h)(0x5A1B839C)
 I (user\LQ9AX.h)(0x5A1B839C)
@@ -259,12 +259,12 @@ I (user\MPU6050.h)(0x5A1B839C)
 I (user\Serial_oscilloscope.h)(0x5A1BCBA6)
 I (user\8700_2100.h)(0x5A1BEB82)
 I (.\RAbuild\System.h)(0x5ACDF156)
-I (.\RAbuild\Motor.h)(0x5AD1E05F)
-I (.\RAbuild\getsig.h)(0x5A9D5F5A)
-I (.\RAbuild\deal.h)(0x5ACDF1A1)
-I (.\RAbuild\spit.h)(0x5ACDF025)
+I (.\RAbuild\Motor.h)(0x5AD8887E)
+I (.\RAbuild\getsig.h)(0x5AD89B7D)
+I (.\RAbuild\deal.h)(0x5AD87853)
+I (.\RAbuild\spit.h)(0x5AD88308)
 I (.\RAbuild\bt.h)(0x5ACDF4D8)
-F (.\user\main.c)(0x5AD35EC8)(-c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I .\common -I .\cpu -I .\drivers -I .\user -I .\RTE\Device\Include -I .\RAbuild-I.\RTE\_Target_1-IM:\Keil_v5\ARM\PACK\Keil\Kinetis_KEAxx_DFP\1.3.0\Device\Include-IM:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSKEAZ128xxx4 -DTRK_KEA128 -DCPU_KEA128 -DIAR-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+F (.\user\main.c)(0x5AD89F8B)(-c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I .\common -I .\cpu -I .\drivers -I .\user -I .\RTE\Device\Include -I .\RAbuild-I.\RTE\_Target_1-IM:\Keil_v5\ARM\PACK\Keil\Kinetis_KEAxx_DFP\1.3.0\Device\Include-IM:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSKEAZ128xxx4 -DTRK_KEA128 -DCPU_KEA128 -DIAR-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
 I (user\include.h)(0x5ACDF4D8)
 I (M:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x588B8344)
 I (M:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588B8344)
@@ -291,7 +291,7 @@ I (.\drivers\gpio.h)(0x5A1B839C)
 I (.\drivers\gpio_icf.h)(0x5A1B839C)
 I (.\drivers\pit.h)(0x5A1B839C)
 I (.\drivers\adc.h)(0x5A1B839C)
-I (.\drivers\ftm.h)(0x5A1BE9CA)
+I (.\drivers\ftm.h)(0x5AD858A0)
 I (.\drivers\kbi.h)(0x5A1B839C)
 I (.\drivers\i2c.h)(0x5A1B839C)
 I (.\drivers\spi.h)(0x5A1B839C)
@@ -302,7 +302,7 @@ I (.\drivers\wdog.h)(0x5A1B839C)
 I (.\drivers\sim.h)(0x5A1BAF98)
 I (.\drivers\pmc.h)(0x5A1B839C)
 I (user\LQ12864.h)(0x5A1BEC84)
-I (user\isr.h)(0x5A1D1786)
+I (user\isr.h)(0x5AD87DCD)
 I (user\LQLED.h)(0x5A1B839C)
 I (user\LQKEY.h)(0x5A1B839C)
 I (user\LQ9AX.h)(0x5A1B839C)
@@ -312,10 +312,10 @@ I (user\MPU6050.h)(0x5A1B839C)
 I (user\Serial_oscilloscope.h)(0x5A1BCBA6)
 I (user\8700_2100.h)(0x5A1BEB82)
 I (.\RAbuild\System.h)(0x5ACDF156)
-I (.\RAbuild\Motor.h)(0x5AD1E05F)
-I (.\RAbuild\getsig.h)(0x5A9D5F5A)
-I (.\RAbuild\deal.h)(0x5ACDF1A1)
-I (.\RAbuild\spit.h)(0x5ACDF025)
+I (.\RAbuild\Motor.h)(0x5AD8887E)
+I (.\RAbuild\getsig.h)(0x5AD89B7D)
+I (.\RAbuild\deal.h)(0x5AD87853)
+I (.\RAbuild\spit.h)(0x5AD88308)
 I (.\RAbuild\bt.h)(0x5ACDF4D8)
 F (.\user\MPU6050.c)(0x5A1B839C)(-c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I .\common -I .\cpu -I .\drivers -I .\user -I .\RTE\Device\Include -I .\RAbuild-I.\RTE\_Target_1-IM:\Keil_v5\ARM\PACK\Keil\Kinetis_KEAxx_DFP\1.3.0\Device\Include-IM:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSKEAZ128xxx4 -DTRK_KEA128 -DCPU_KEA128 -DIAR-o .\objects\mpu6050.o --omf_browse .\objects\mpu6050.crf --depend .\objects\mpu6050.d)
 I (user\include.h)(0x5ACDF4D8)
@@ -344,7 +344,7 @@ I (.\drivers\gpio.h)(0x5A1B839C)
 I (.\drivers\gpio_icf.h)(0x5A1B839C)
 I (.\drivers\pit.h)(0x5A1B839C)
 I (.\drivers\adc.h)(0x5A1B839C)
-I (.\drivers\ftm.h)(0x5A1BE9CA)
+I (.\drivers\ftm.h)(0x5AD858A0)
 I (.\drivers\kbi.h)(0x5A1B839C)
 I (.\drivers\i2c.h)(0x5A1B839C)
 I (.\drivers\spi.h)(0x5A1B839C)
@@ -355,7 +355,7 @@ I (.\drivers\wdog.h)(0x5A1B839C)
 I (.\drivers\sim.h)(0x5A1BAF98)
 I (.\drivers\pmc.h)(0x5A1B839C)
 I (user\LQ12864.h)(0x5A1BEC84)
-I (user\isr.h)(0x5A1D1786)
+I (user\isr.h)(0x5AD87DCD)
 I (user\LQLED.h)(0x5A1B839C)
 I (user\LQKEY.h)(0x5A1B839C)
 I (user\LQ9AX.h)(0x5A1B839C)
@@ -365,10 +365,10 @@ I (user\MPU6050.h)(0x5A1B839C)
 I (user\Serial_oscilloscope.h)(0x5A1BCBA6)
 I (user\8700_2100.h)(0x5A1BEB82)
 I (.\RAbuild\System.h)(0x5ACDF156)
-I (.\RAbuild\Motor.h)(0x5AD1E05F)
-I (.\RAbuild\getsig.h)(0x5A9D5F5A)
-I (.\RAbuild\deal.h)(0x5ACDF1A1)
-I (.\RAbuild\spit.h)(0x5ACDF025)
+I (.\RAbuild\Motor.h)(0x5AD8887E)
+I (.\RAbuild\getsig.h)(0x5AD89B7D)
+I (.\RAbuild\deal.h)(0x5AD87853)
+I (.\RAbuild\spit.h)(0x5AD88308)
 I (.\RAbuild\bt.h)(0x5ACDF4D8)
 F (.\user\MPUIIC.c)(0x5A1E1308)(-c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I .\common -I .\cpu -I .\drivers -I .\user -I .\RTE\Device\Include -I .\RAbuild-I.\RTE\_Target_1-IM:\Keil_v5\ARM\PACK\Keil\Kinetis_KEAxx_DFP\1.3.0\Device\Include-IM:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSKEAZ128xxx4 -DTRK_KEA128 -DCPU_KEA128 -DIAR-o .\objects\mpuiic.o --omf_browse .\objects\mpuiic.crf --depend .\objects\mpuiic.d)
 I (user\include.h)(0x5ACDF4D8)
@@ -397,7 +397,7 @@ I (.\drivers\gpio.h)(0x5A1B839C)
 I (.\drivers\gpio_icf.h)(0x5A1B839C)
 I (.\drivers\pit.h)(0x5A1B839C)
 I (.\drivers\adc.h)(0x5A1B839C)
-I (.\drivers\ftm.h)(0x5A1BE9CA)
+I (.\drivers\ftm.h)(0x5AD858A0)
 I (.\drivers\kbi.h)(0x5A1B839C)
 I (.\drivers\i2c.h)(0x5A1B839C)
 I (.\drivers\spi.h)(0x5A1B839C)
@@ -408,7 +408,7 @@ I (.\drivers\wdog.h)(0x5A1B839C)
 I (.\drivers\sim.h)(0x5A1BAF98)
 I (.\drivers\pmc.h)(0x5A1B839C)
 I (user\LQ12864.h)(0x5A1BEC84)
-I (user\isr.h)(0x5A1D1786)
+I (user\isr.h)(0x5AD87DCD)
 I (user\LQLED.h)(0x5A1B839C)
 I (user\LQKEY.h)(0x5A1B839C)
 I (user\LQ9AX.h)(0x5A1B839C)
@@ -418,10 +418,10 @@ I (user\MPU6050.h)(0x5A1B839C)
 I (user\Serial_oscilloscope.h)(0x5A1BCBA6)
 I (user\8700_2100.h)(0x5A1BEB82)
 I (.\RAbuild\System.h)(0x5ACDF156)
-I (.\RAbuild\Motor.h)(0x5AD1E05F)
-I (.\RAbuild\getsig.h)(0x5A9D5F5A)
-I (.\RAbuild\deal.h)(0x5ACDF1A1)
-I (.\RAbuild\spit.h)(0x5ACDF025)
+I (.\RAbuild\Motor.h)(0x5AD8887E)
+I (.\RAbuild\getsig.h)(0x5AD89B7D)
+I (.\RAbuild\deal.h)(0x5AD87853)
+I (.\RAbuild\spit.h)(0x5AD88308)
 I (.\RAbuild\bt.h)(0x5ACDF4D8)
 F (.\user\Serial_oscilloscope.c)(0x5A1BC75E)(-c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I .\common -I .\cpu -I .\drivers -I .\user -I .\RTE\Device\Include -I .\RAbuild-I.\RTE\_Target_1-IM:\Keil_v5\ARM\PACK\Keil\Kinetis_KEAxx_DFP\1.3.0\Device\Include-IM:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSKEAZ128xxx4 -DTRK_KEA128 -DCPU_KEA128 -DIAR-o .\objects\serial_oscilloscope.o --omf_browse .\objects\serial_oscilloscope.crf --depend .\objects\serial_oscilloscope.d)
 I (user\include.h)(0x5ACDF4D8)
@@ -450,7 +450,7 @@ I (.\drivers\gpio.h)(0x5A1B839C)
 I (.\drivers\gpio_icf.h)(0x5A1B839C)
 I (.\drivers\pit.h)(0x5A1B839C)
 I (.\drivers\adc.h)(0x5A1B839C)
-I (.\drivers\ftm.h)(0x5A1BE9CA)
+I (.\drivers\ftm.h)(0x5AD858A0)
 I (.\drivers\kbi.h)(0x5A1B839C)
 I (.\drivers\i2c.h)(0x5A1B839C)
 I (.\drivers\spi.h)(0x5A1B839C)
@@ -461,7 +461,7 @@ I (.\drivers\wdog.h)(0x5A1B839C)
 I (.\drivers\sim.h)(0x5A1BAF98)
 I (.\drivers\pmc.h)(0x5A1B839C)
 I (user\LQ12864.h)(0x5A1BEC84)
-I (user\isr.h)(0x5A1D1786)
+I (user\isr.h)(0x5AD87DCD)
 I (user\LQLED.h)(0x5A1B839C)
 I (user\LQKEY.h)(0x5A1B839C)
 I (user\LQ9AX.h)(0x5A1B839C)
@@ -471,13 +471,13 @@ I (user\MPU6050.h)(0x5A1B839C)
 I (user\Serial_oscilloscope.h)(0x5A1BCBA6)
 I (user\8700_2100.h)(0x5A1BEB82)
 I (.\RAbuild\System.h)(0x5ACDF156)
-I (.\RAbuild\Motor.h)(0x5AD1E05F)
-I (.\RAbuild\getsig.h)(0x5A9D5F5A)
-I (.\RAbuild\deal.h)(0x5ACDF1A1)
-I (.\RAbuild\spit.h)(0x5ACDF025)
+I (.\RAbuild\Motor.h)(0x5AD8887E)
+I (.\RAbuild\getsig.h)(0x5AD89B7D)
+I (.\RAbuild\deal.h)(0x5AD87853)
+I (.\RAbuild\spit.h)(0x5AD88308)
 I (.\RAbuild\bt.h)(0x5ACDF4D8)
 F (.\user\include.h)(0x5ACDF4D8)()
-F (.\drivers\adc.c)(0x5A1E8B4A)(-c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I .\common -I .\cpu -I .\drivers -I .\user -I .\RTE\Device\Include -I .\RAbuild-I.\RTE\_Target_1-IM:\Keil_v5\ARM\PACK\Keil\Kinetis_KEAxx_DFP\1.3.0\Device\Include-IM:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSKEAZ128xxx4 -DTRK_KEA128 -DCPU_KEA128 -DIAR-o .\objects\adc.o --omf_browse .\objects\adc.crf --depend .\objects\adc.d)
+F (.\drivers\adc.c)(0x5AD84205)(-c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I .\common -I .\cpu -I .\drivers -I .\user -I .\RTE\Device\Include -I .\RAbuild-I.\RTE\_Target_1-IM:\Keil_v5\ARM\PACK\Keil\Kinetis_KEAxx_DFP\1.3.0\Device\Include-IM:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSKEAZ128xxx4 -DTRK_KEA128 -DCPU_KEA128 -DIAR-o .\objects\adc.o --omf_browse .\objects\adc.crf --depend .\objects\adc.d)
 I (.\user\include.h)(0x5ACDF4D8)
 I (M:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x588B8344)
 I (M:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588B8344)
@@ -503,7 +503,7 @@ I (.\drivers\gpio.h)(0x5A1B839C)
 I (.\drivers\gpio_icf.h)(0x5A1B839C)
 I (.\drivers\pit.h)(0x5A1B839C)
 I (.\drivers\adc.h)(0x5A1B839C)
-I (.\drivers\ftm.h)(0x5A1BE9CA)
+I (.\drivers\ftm.h)(0x5AD858A0)
 I (.\drivers\kbi.h)(0x5A1B839C)
 I (.\drivers\i2c.h)(0x5A1B839C)
 I (.\drivers\spi.h)(0x5A1B839C)
@@ -514,7 +514,7 @@ I (.\drivers\wdog.h)(0x5A1B839C)
 I (.\drivers\sim.h)(0x5A1BAF98)
 I (.\drivers\pmc.h)(0x5A1B839C)
 I (.\user\LQ12864.h)(0x5A1BEC84)
-I (.\user\isr.h)(0x5A1D1786)
+I (.\user\isr.h)(0x5AD87DCD)
 I (.\user\LQLED.h)(0x5A1B839C)
 I (.\user\LQKEY.h)(0x5A1B839C)
 I (.\user\LQ9AX.h)(0x5A1B839C)
@@ -524,10 +524,10 @@ I (.\user\MPU6050.h)(0x5A1B839C)
 I (.\user\Serial_oscilloscope.h)(0x5A1BCBA6)
 I (.\user\8700_2100.h)(0x5A1BEB82)
 I (.\RAbuild\System.h)(0x5ACDF156)
-I (.\RAbuild\Motor.h)(0x5AD1E05F)
-I (.\RAbuild\getsig.h)(0x5A9D5F5A)
-I (.\RAbuild\deal.h)(0x5ACDF1A1)
-I (.\RAbuild\spit.h)(0x5ACDF025)
+I (.\RAbuild\Motor.h)(0x5AD8887E)
+I (.\RAbuild\getsig.h)(0x5AD89B7D)
+I (.\RAbuild\deal.h)(0x5AD87853)
+I (.\RAbuild\spit.h)(0x5AD88308)
 I (.\RAbuild\bt.h)(0x5ACDF4D8)
 F (.\drivers\crc.c)(0x5A1B839C)(-c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I .\common -I .\cpu -I .\drivers -I .\user -I .\RTE\Device\Include -I .\RAbuild-I.\RTE\_Target_1-IM:\Keil_v5\ARM\PACK\Keil\Kinetis_KEAxx_DFP\1.3.0\Device\Include-IM:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSKEAZ128xxx4 -DTRK_KEA128 -DCPU_KEA128 -DIAR-o .\objects\crc.o --omf_browse .\objects\crc.crf --depend .\objects\crc.d)
 I (.\common\common.h)(0x5A1BACF0)
@@ -571,7 +571,7 @@ I (.\drivers\gpio.h)(0x5A1B839C)
 I (.\drivers\gpio_icf.h)(0x5A1B839C)
 I (.\drivers\pit.h)(0x5A1B839C)
 I (.\drivers\adc.h)(0x5A1B839C)
-I (.\drivers\ftm.h)(0x5A1BE9CA)
+I (.\drivers\ftm.h)(0x5AD858A0)
 I (.\drivers\kbi.h)(0x5A1B839C)
 I (.\drivers\i2c.h)(0x5A1B839C)
 I (.\drivers\spi.h)(0x5A1B839C)
@@ -582,7 +582,7 @@ I (.\drivers\wdog.h)(0x5A1B839C)
 I (.\drivers\sim.h)(0x5A1BAF98)
 I (.\drivers\pmc.h)(0x5A1B839C)
 I (.\user\LQ12864.h)(0x5A1BEC84)
-I (.\user\isr.h)(0x5A1D1786)
+I (.\user\isr.h)(0x5AD87DCD)
 I (.\user\LQLED.h)(0x5A1B839C)
 I (.\user\LQKEY.h)(0x5A1B839C)
 I (.\user\LQ9AX.h)(0x5A1B839C)
@@ -592,10 +592,10 @@ I (.\user\MPU6050.h)(0x5A1B839C)
 I (.\user\Serial_oscilloscope.h)(0x5A1BCBA6)
 I (.\user\8700_2100.h)(0x5A1BEB82)
 I (.\RAbuild\System.h)(0x5ACDF156)
-I (.\RAbuild\Motor.h)(0x5AD1E05F)
-I (.\RAbuild\getsig.h)(0x5A9D5F5A)
-I (.\RAbuild\deal.h)(0x5ACDF1A1)
-I (.\RAbuild\spit.h)(0x5ACDF025)
+I (.\RAbuild\Motor.h)(0x5AD8887E)
+I (.\RAbuild\getsig.h)(0x5AD89B7D)
+I (.\RAbuild\deal.h)(0x5AD87853)
+I (.\RAbuild\spit.h)(0x5AD88308)
 I (.\RAbuild\bt.h)(0x5ACDF4D8)
 F (.\drivers\gpio.c)(0x5A1B839C)(-c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I .\common -I .\cpu -I .\drivers -I .\user -I .\RTE\Device\Include -I .\RAbuild-I.\RTE\_Target_1-IM:\Keil_v5\ARM\PACK\Keil\Kinetis_KEAxx_DFP\1.3.0\Device\Include-IM:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSKEAZ128xxx4 -DTRK_KEA128 -DCPU_KEA128 -DIAR-o .\objects\gpio.o --omf_browse .\objects\gpio.crf --depend .\objects\gpio.d)
 I (drivers\gpio.h)(0x5A1B839C)
@@ -624,7 +624,7 @@ I (.\drivers\uart.h)(0x5A1BE9CA)
 I (.\drivers\gpio.h)(0x5A1B839C)
 I (.\drivers\pit.h)(0x5A1B839C)
 I (.\drivers\adc.h)(0x5A1B839C)
-I (.\drivers\ftm.h)(0x5A1BE9CA)
+I (.\drivers\ftm.h)(0x5AD858A0)
 I (.\drivers\kbi.h)(0x5A1B839C)
 I (.\drivers\gpio_icf.h)(0x5A1B839C)
 I (.\drivers\i2c.h)(0x5A1B839C)
@@ -636,7 +636,7 @@ I (.\drivers\wdog.h)(0x5A1B839C)
 I (.\drivers\sim.h)(0x5A1BAF98)
 I (.\drivers\pmc.h)(0x5A1B839C)
 I (.\user\LQ12864.h)(0x5A1BEC84)
-I (.\user\isr.h)(0x5A1D1786)
+I (.\user\isr.h)(0x5AD87DCD)
 I (.\user\LQLED.h)(0x5A1B839C)
 I (.\user\LQKEY.h)(0x5A1B839C)
 I (.\user\LQ9AX.h)(0x5A1B839C)
@@ -646,10 +646,10 @@ I (.\user\MPU6050.h)(0x5A1B839C)
 I (.\user\Serial_oscilloscope.h)(0x5A1BCBA6)
 I (.\user\8700_2100.h)(0x5A1BEB82)
 I (.\RAbuild\System.h)(0x5ACDF156)
-I (.\RAbuild\Motor.h)(0x5AD1E05F)
-I (.\RAbuild\getsig.h)(0x5A9D5F5A)
-I (.\RAbuild\deal.h)(0x5ACDF1A1)
-I (.\RAbuild\spit.h)(0x5ACDF025)
+I (.\RAbuild\Motor.h)(0x5AD8887E)
+I (.\RAbuild\getsig.h)(0x5AD89B7D)
+I (.\RAbuild\deal.h)(0x5AD87853)
+I (.\RAbuild\spit.h)(0x5AD88308)
 I (.\RAbuild\bt.h)(0x5ACDF4D8)
 F (.\drivers\i2c.c)(0x5A1B839C)(-c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I .\common -I .\cpu -I .\drivers -I .\user -I .\RTE\Device\Include -I .\RAbuild-I.\RTE\_Target_1-IM:\Keil_v5\ARM\PACK\Keil\Kinetis_KEAxx_DFP\1.3.0\Device\Include-IM:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSKEAZ128xxx4 -DTRK_KEA128 -DCPU_KEA128 -DIAR-o .\objects\i2c.o --omf_browse .\objects\i2c.crf --depend .\objects\i2c.d)
 I (.\common\common.h)(0x5A1BACF0)
@@ -693,7 +693,7 @@ I (.\drivers\gpio.h)(0x5A1B839C)
 I (.\drivers\gpio_icf.h)(0x5A1B839C)
 I (.\drivers\pit.h)(0x5A1B839C)
 I (.\drivers\adc.h)(0x5A1B839C)
-I (.\drivers\ftm.h)(0x5A1BE9CA)
+I (.\drivers\ftm.h)(0x5AD858A0)
 I (.\drivers\kbi.h)(0x5A1B839C)
 I (.\drivers\i2c.h)(0x5A1B839C)
 I (.\drivers\spi.h)(0x5A1B839C)
@@ -704,7 +704,7 @@ I (.\drivers\wdog.h)(0x5A1B839C)
 I (.\drivers\sim.h)(0x5A1BAF98)
 I (.\drivers\pmc.h)(0x5A1B839C)
 I (.\user\LQ12864.h)(0x5A1BEC84)
-I (.\user\isr.h)(0x5A1D1786)
+I (.\user\isr.h)(0x5AD87DCD)
 I (.\user\LQLED.h)(0x5A1B839C)
 I (.\user\LQKEY.h)(0x5A1B839C)
 I (.\user\LQ9AX.h)(0x5A1B839C)
@@ -714,10 +714,10 @@ I (.\user\MPU6050.h)(0x5A1B839C)
 I (.\user\Serial_oscilloscope.h)(0x5A1BCBA6)
 I (.\user\8700_2100.h)(0x5A1BEB82)
 I (.\RAbuild\System.h)(0x5ACDF156)
-I (.\RAbuild\Motor.h)(0x5AD1E05F)
-I (.\RAbuild\getsig.h)(0x5A9D5F5A)
-I (.\RAbuild\deal.h)(0x5ACDF1A1)
-I (.\RAbuild\spit.h)(0x5ACDF025)
+I (.\RAbuild\Motor.h)(0x5AD8887E)
+I (.\RAbuild\getsig.h)(0x5AD89B7D)
+I (.\RAbuild\deal.h)(0x5AD87853)
+I (.\RAbuild\spit.h)(0x5AD88308)
 I (.\RAbuild\bt.h)(0x5ACDF4D8)
 F (.\drivers\mscan.c)(0x5A1B839C)(-c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I .\common -I .\cpu -I .\drivers -I .\user -I .\RTE\Device\Include -I .\RAbuild-I.\RTE\_Target_1-IM:\Keil_v5\ARM\PACK\Keil\Kinetis_KEAxx_DFP\1.3.0\Device\Include-IM:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSKEAZ128xxx4 -DTRK_KEA128 -DCPU_KEA128 -DIAR-o .\objects\mscan.o --omf_browse .\objects\mscan.crf --depend .\objects\mscan.d)
 I (.\user\include.h)(0x5ACDF4D8)
@@ -745,7 +745,7 @@ I (.\drivers\gpio.h)(0x5A1B839C)
 I (.\drivers\gpio_icf.h)(0x5A1B839C)
 I (.\drivers\pit.h)(0x5A1B839C)
 I (.\drivers\adc.h)(0x5A1B839C)
-I (.\drivers\ftm.h)(0x5A1BE9CA)
+I (.\drivers\ftm.h)(0x5AD858A0)
 I (.\drivers\kbi.h)(0x5A1B839C)
 I (.\drivers\i2c.h)(0x5A1B839C)
 I (.\drivers\spi.h)(0x5A1B839C)
@@ -756,7 +756,7 @@ I (.\drivers\wdog.h)(0x5A1B839C)
 I (.\drivers\sim.h)(0x5A1BAF98)
 I (.\drivers\pmc.h)(0x5A1B839C)
 I (.\user\LQ12864.h)(0x5A1BEC84)
-I (.\user\isr.h)(0x5A1D1786)
+I (.\user\isr.h)(0x5AD87DCD)
 I (.\user\LQLED.h)(0x5A1B839C)
 I (.\user\LQKEY.h)(0x5A1B839C)
 I (.\user\LQ9AX.h)(0x5A1B839C)
@@ -766,12 +766,12 @@ I (.\user\MPU6050.h)(0x5A1B839C)
 I (.\user\Serial_oscilloscope.h)(0x5A1BCBA6)
 I (.\user\8700_2100.h)(0x5A1BEB82)
 I (.\RAbuild\System.h)(0x5ACDF156)
-I (.\RAbuild\Motor.h)(0x5AD1E05F)
-I (.\RAbuild\getsig.h)(0x5A9D5F5A)
-I (.\RAbuild\deal.h)(0x5ACDF1A1)
-I (.\RAbuild\spit.h)(0x5ACDF025)
+I (.\RAbuild\Motor.h)(0x5AD8887E)
+I (.\RAbuild\getsig.h)(0x5AD89B7D)
+I (.\RAbuild\deal.h)(0x5AD87853)
+I (.\RAbuild\spit.h)(0x5AD88308)
 I (.\RAbuild\bt.h)(0x5ACDF4D8)
-F (.\drivers\pit.c)(0x5A1B839C)(-c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I .\common -I .\cpu -I .\drivers -I .\user -I .\RTE\Device\Include -I .\RAbuild-I.\RTE\_Target_1-IM:\Keil_v5\ARM\PACK\Keil\Kinetis_KEAxx_DFP\1.3.0\Device\Include-IM:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSKEAZ128xxx4 -DTRK_KEA128 -DCPU_KEA128 -DIAR-o .\objects\pit.o --omf_browse .\objects\pit.crf --depend .\objects\pit.d)
+F (.\drivers\pit.c)(0x5AD8826C)(-c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I .\common -I .\cpu -I .\drivers -I .\user -I .\RTE\Device\Include -I .\RAbuild-I.\RTE\_Target_1-IM:\Keil_v5\ARM\PACK\Keil\Kinetis_KEAxx_DFP\1.3.0\Device\Include-IM:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSKEAZ128xxx4 -DTRK_KEA128 -DCPU_KEA128 -DIAR-o .\objects\pit.o --omf_browse .\objects\pit.crf --depend .\objects\pit.d)
 I (.\user\include.h)(0x5ACDF4D8)
 I (M:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x588B8344)
 I (M:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588B8344)
@@ -797,7 +797,7 @@ I (.\drivers\gpio.h)(0x5A1B839C)
 I (.\drivers\gpio_icf.h)(0x5A1B839C)
 I (.\drivers\pit.h)(0x5A1B839C)
 I (.\drivers\adc.h)(0x5A1B839C)
-I (.\drivers\ftm.h)(0x5A1BE9CA)
+I (.\drivers\ftm.h)(0x5AD858A0)
 I (.\drivers\kbi.h)(0x5A1B839C)
 I (.\drivers\i2c.h)(0x5A1B839C)
 I (.\drivers\spi.h)(0x5A1B839C)
@@ -808,7 +808,7 @@ I (.\drivers\wdog.h)(0x5A1B839C)
 I (.\drivers\sim.h)(0x5A1BAF98)
 I (.\drivers\pmc.h)(0x5A1B839C)
 I (.\user\LQ12864.h)(0x5A1BEC84)
-I (.\user\isr.h)(0x5A1D1786)
+I (.\user\isr.h)(0x5AD87DCD)
 I (.\user\LQLED.h)(0x5A1B839C)
 I (.\user\LQKEY.h)(0x5A1B839C)
 I (.\user\LQ9AX.h)(0x5A1B839C)
@@ -818,10 +818,10 @@ I (.\user\MPU6050.h)(0x5A1B839C)
 I (.\user\Serial_oscilloscope.h)(0x5A1BCBA6)
 I (.\user\8700_2100.h)(0x5A1BEB82)
 I (.\RAbuild\System.h)(0x5ACDF156)
-I (.\RAbuild\Motor.h)(0x5AD1E05F)
-I (.\RAbuild\getsig.h)(0x5A9D5F5A)
-I (.\RAbuild\deal.h)(0x5ACDF1A1)
-I (.\RAbuild\spit.h)(0x5ACDF025)
+I (.\RAbuild\Motor.h)(0x5AD8887E)
+I (.\RAbuild\getsig.h)(0x5AD89B7D)
+I (.\RAbuild\deal.h)(0x5AD87853)
+I (.\RAbuild\spit.h)(0x5AD88308)
 I (.\RAbuild\bt.h)(0x5ACDF4D8)
 F (.\drivers\pmc.c)(0x5A1B839C)(-c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I .\common -I .\cpu -I .\drivers -I .\user -I .\RTE\Device\Include -I .\RAbuild-I.\RTE\_Target_1-IM:\Keil_v5\ARM\PACK\Keil\Kinetis_KEAxx_DFP\1.3.0\Device\Include-IM:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSKEAZ128xxx4 -DTRK_KEA128 -DCPU_KEA128 -DIAR-o .\objects\pmc.o --omf_browse .\objects\pmc.crf --depend .\objects\pmc.d)
 I (.\user\include.h)(0x5ACDF4D8)
@@ -849,7 +849,7 @@ I (.\drivers\gpio.h)(0x5A1B839C)
 I (.\drivers\gpio_icf.h)(0x5A1B839C)
 I (.\drivers\pit.h)(0x5A1B839C)
 I (.\drivers\adc.h)(0x5A1B839C)
-I (.\drivers\ftm.h)(0x5A1BE9CA)
+I (.\drivers\ftm.h)(0x5AD858A0)
 I (.\drivers\kbi.h)(0x5A1B839C)
 I (.\drivers\i2c.h)(0x5A1B839C)
 I (.\drivers\spi.h)(0x5A1B839C)
@@ -860,7 +860,7 @@ I (.\drivers\wdog.h)(0x5A1B839C)
 I (.\drivers\sim.h)(0x5A1BAF98)
 I (.\drivers\pmc.h)(0x5A1B839C)
 I (.\user\LQ12864.h)(0x5A1BEC84)
-I (.\user\isr.h)(0x5A1D1786)
+I (.\user\isr.h)(0x5AD87DCD)
 I (.\user\LQLED.h)(0x5A1B839C)
 I (.\user\LQKEY.h)(0x5A1B839C)
 I (.\user\LQ9AX.h)(0x5A1B839C)
@@ -870,10 +870,10 @@ I (.\user\MPU6050.h)(0x5A1B839C)
 I (.\user\Serial_oscilloscope.h)(0x5A1BCBA6)
 I (.\user\8700_2100.h)(0x5A1BEB82)
 I (.\RAbuild\System.h)(0x5ACDF156)
-I (.\RAbuild\Motor.h)(0x5AD1E05F)
-I (.\RAbuild\getsig.h)(0x5A9D5F5A)
-I (.\RAbuild\deal.h)(0x5ACDF1A1)
-I (.\RAbuild\spit.h)(0x5ACDF025)
+I (.\RAbuild\Motor.h)(0x5AD8887E)
+I (.\RAbuild\getsig.h)(0x5AD89B7D)
+I (.\RAbuild\deal.h)(0x5AD87853)
+I (.\RAbuild\spit.h)(0x5AD88308)
 I (.\RAbuild\bt.h)(0x5ACDF4D8)
 F (.\drivers\pwt.c)(0x5A1B839C)(-c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I .\common -I .\cpu -I .\drivers -I .\user -I .\RTE\Device\Include -I .\RAbuild-I.\RTE\_Target_1-IM:\Keil_v5\ARM\PACK\Keil\Kinetis_KEAxx_DFP\1.3.0\Device\Include-IM:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSKEAZ128xxx4 -DTRK_KEA128 -DCPU_KEA128 -DIAR-o .\objects\pwt.o --omf_browse .\objects\pwt.crf --depend .\objects\pwt.d)
 I (.\user\include.h)(0x5ACDF4D8)
@@ -901,7 +901,7 @@ I (.\drivers\gpio.h)(0x5A1B839C)
 I (.\drivers\gpio_icf.h)(0x5A1B839C)
 I (.\drivers\pit.h)(0x5A1B839C)
 I (.\drivers\adc.h)(0x5A1B839C)
-I (.\drivers\ftm.h)(0x5A1BE9CA)
+I (.\drivers\ftm.h)(0x5AD858A0)
 I (.\drivers\kbi.h)(0x5A1B839C)
 I (.\drivers\i2c.h)(0x5A1B839C)
 I (.\drivers\spi.h)(0x5A1B839C)
@@ -912,7 +912,7 @@ I (.\drivers\wdog.h)(0x5A1B839C)
 I (.\drivers\sim.h)(0x5A1BAF98)
 I (.\drivers\pmc.h)(0x5A1B839C)
 I (.\user\LQ12864.h)(0x5A1BEC84)
-I (.\user\isr.h)(0x5A1D1786)
+I (.\user\isr.h)(0x5AD87DCD)
 I (.\user\LQLED.h)(0x5A1B839C)
 I (.\user\LQKEY.h)(0x5A1B839C)
 I (.\user\LQ9AX.h)(0x5A1B839C)
@@ -922,10 +922,10 @@ I (.\user\MPU6050.h)(0x5A1B839C)
 I (.\user\Serial_oscilloscope.h)(0x5A1BCBA6)
 I (.\user\8700_2100.h)(0x5A1BEB82)
 I (.\RAbuild\System.h)(0x5ACDF156)
-I (.\RAbuild\Motor.h)(0x5AD1E05F)
-I (.\RAbuild\getsig.h)(0x5A9D5F5A)
-I (.\RAbuild\deal.h)(0x5ACDF1A1)
-I (.\RAbuild\spit.h)(0x5ACDF025)
+I (.\RAbuild\Motor.h)(0x5AD8887E)
+I (.\RAbuild\getsig.h)(0x5AD89B7D)
+I (.\RAbuild\deal.h)(0x5AD87853)
+I (.\RAbuild\spit.h)(0x5AD88308)
 I (.\RAbuild\bt.h)(0x5ACDF4D8)
 F (.\drivers\rtc.c)(0x5A1D1CCA)(-c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I .\common -I .\cpu -I .\drivers -I .\user -I .\RTE\Device\Include -I .\RAbuild-I.\RTE\_Target_1-IM:\Keil_v5\ARM\PACK\Keil\Kinetis_KEAxx_DFP\1.3.0\Device\Include-IM:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSKEAZ128xxx4 -DTRK_KEA128 -DCPU_KEA128 -DIAR-o .\objects\rtc.o --omf_browse .\objects\rtc.crf --depend .\objects\rtc.d)
 I (.\user\include.h)(0x5ACDF4D8)
@@ -953,7 +953,7 @@ I (.\drivers\gpio.h)(0x5A1B839C)
 I (.\drivers\gpio_icf.h)(0x5A1B839C)
 I (.\drivers\pit.h)(0x5A1B839C)
 I (.\drivers\adc.h)(0x5A1B839C)
-I (.\drivers\ftm.h)(0x5A1BE9CA)
+I (.\drivers\ftm.h)(0x5AD858A0)
 I (.\drivers\kbi.h)(0x5A1B839C)
 I (.\drivers\i2c.h)(0x5A1B839C)
 I (.\drivers\spi.h)(0x5A1B839C)
@@ -964,7 +964,7 @@ I (.\drivers\wdog.h)(0x5A1B839C)
 I (.\drivers\sim.h)(0x5A1BAF98)
 I (.\drivers\pmc.h)(0x5A1B839C)
 I (.\user\LQ12864.h)(0x5A1BEC84)
-I (.\user\isr.h)(0x5A1D1786)
+I (.\user\isr.h)(0x5AD87DCD)
 I (.\user\LQLED.h)(0x5A1B839C)
 I (.\user\LQKEY.h)(0x5A1B839C)
 I (.\user\LQ9AX.h)(0x5A1B839C)
@@ -974,10 +974,10 @@ I (.\user\MPU6050.h)(0x5A1B839C)
 I (.\user\Serial_oscilloscope.h)(0x5A1BCBA6)
 I (.\user\8700_2100.h)(0x5A1BEB82)
 I (.\RAbuild\System.h)(0x5ACDF156)
-I (.\RAbuild\Motor.h)(0x5AD1E05F)
-I (.\RAbuild\getsig.h)(0x5A9D5F5A)
-I (.\RAbuild\deal.h)(0x5ACDF1A1)
-I (.\RAbuild\spit.h)(0x5ACDF025)
+I (.\RAbuild\Motor.h)(0x5AD8887E)
+I (.\RAbuild\getsig.h)(0x5AD89B7D)
+I (.\RAbuild\deal.h)(0x5AD87853)
+I (.\RAbuild\spit.h)(0x5AD88308)
 I (.\RAbuild\bt.h)(0x5ACDF4D8)
 F (.\drivers\spi.c)(0x5A1B839C)(-c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I .\common -I .\cpu -I .\drivers -I .\user -I .\RTE\Device\Include -I .\RAbuild-I.\RTE\_Target_1-IM:\Keil_v5\ARM\PACK\Keil\Kinetis_KEAxx_DFP\1.3.0\Device\Include-IM:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSKEAZ128xxx4 -DTRK_KEA128 -DCPU_KEA128 -DIAR-o .\objects\spi.o --omf_browse .\objects\spi.crf --depend .\objects\spi.d)
 I (.\user\include.h)(0x5ACDF4D8)
@@ -1005,7 +1005,7 @@ I (.\drivers\gpio.h)(0x5A1B839C)
 I (.\drivers\gpio_icf.h)(0x5A1B839C)
 I (.\drivers\pit.h)(0x5A1B839C)
 I (.\drivers\adc.h)(0x5A1B839C)
-I (.\drivers\ftm.h)(0x5A1BE9CA)
+I (.\drivers\ftm.h)(0x5AD858A0)
 I (.\drivers\kbi.h)(0x5A1B839C)
 I (.\drivers\i2c.h)(0x5A1B839C)
 I (.\drivers\spi.h)(0x5A1B839C)
@@ -1016,7 +1016,7 @@ I (.\drivers\wdog.h)(0x5A1B839C)
 I (.\drivers\sim.h)(0x5A1BAF98)
 I (.\drivers\pmc.h)(0x5A1B839C)
 I (.\user\LQ12864.h)(0x5A1BEC84)
-I (.\user\isr.h)(0x5A1D1786)
+I (.\user\isr.h)(0x5AD87DCD)
 I (.\user\LQLED.h)(0x5A1B839C)
 I (.\user\LQKEY.h)(0x5A1B839C)
 I (.\user\LQ9AX.h)(0x5A1B839C)
@@ -1026,10 +1026,10 @@ I (.\user\MPU6050.h)(0x5A1B839C)
 I (.\user\Serial_oscilloscope.h)(0x5A1BCBA6)
 I (.\user\8700_2100.h)(0x5A1BEB82)
 I (.\RAbuild\System.h)(0x5ACDF156)
-I (.\RAbuild\Motor.h)(0x5AD1E05F)
-I (.\RAbuild\getsig.h)(0x5A9D5F5A)
-I (.\RAbuild\deal.h)(0x5ACDF1A1)
-I (.\RAbuild\spit.h)(0x5ACDF025)
+I (.\RAbuild\Motor.h)(0x5AD8887E)
+I (.\RAbuild\getsig.h)(0x5AD89B7D)
+I (.\RAbuild\deal.h)(0x5AD87853)
+I (.\RAbuild\spit.h)(0x5AD88308)
 I (.\RAbuild\bt.h)(0x5ACDF4D8)
 F (.\drivers\uart.c)(0x5ACE182F)(-c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I .\common -I .\cpu -I .\drivers -I .\user -I .\RTE\Device\Include -I .\RAbuild-I.\RTE\_Target_1-IM:\Keil_v5\ARM\PACK\Keil\Kinetis_KEAxx_DFP\1.3.0\Device\Include-IM:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSKEAZ128xxx4 -DTRK_KEA128 -DCPU_KEA128 -DIAR-o .\objects\uart.o --omf_browse .\objects\uart.crf --depend .\objects\uart.d)
 I (drivers\uart.h)(0x5A1BE9CA)
@@ -1058,7 +1058,7 @@ I (.\drivers\gpio.h)(0x5A1B839C)
 I (.\drivers\gpio_icf.h)(0x5A1B839C)
 I (.\drivers\pit.h)(0x5A1B839C)
 I (.\drivers\adc.h)(0x5A1B839C)
-I (.\drivers\ftm.h)(0x5A1BE9CA)
+I (.\drivers\ftm.h)(0x5AD858A0)
 I (.\drivers\kbi.h)(0x5A1B839C)
 I (.\drivers\i2c.h)(0x5A1B839C)
 I (.\drivers\spi.h)(0x5A1B839C)
@@ -1069,7 +1069,7 @@ I (.\drivers\wdog.h)(0x5A1B839C)
 I (.\drivers\sim.h)(0x5A1BAF98)
 I (.\drivers\pmc.h)(0x5A1B839C)
 I (.\user\LQ12864.h)(0x5A1BEC84)
-I (.\user\isr.h)(0x5A1D1786)
+I (.\user\isr.h)(0x5AD87DCD)
 I (.\user\LQLED.h)(0x5A1B839C)
 I (.\user\LQKEY.h)(0x5A1B839C)
 I (.\user\LQ9AX.h)(0x5A1B839C)
@@ -1079,10 +1079,10 @@ I (.\user\MPU6050.h)(0x5A1B839C)
 I (.\user\Serial_oscilloscope.h)(0x5A1BCBA6)
 I (.\user\8700_2100.h)(0x5A1BEB82)
 I (.\RAbuild\System.h)(0x5ACDF156)
-I (.\RAbuild\Motor.h)(0x5AD1E05F)
-I (.\RAbuild\getsig.h)(0x5A9D5F5A)
-I (.\RAbuild\deal.h)(0x5ACDF1A1)
-I (.\RAbuild\spit.h)(0x5ACDF025)
+I (.\RAbuild\Motor.h)(0x5AD8887E)
+I (.\RAbuild\getsig.h)(0x5AD89B7D)
+I (.\RAbuild\deal.h)(0x5AD87853)
+I (.\RAbuild\spit.h)(0x5AD88308)
 I (.\RAbuild\bt.h)(0x5ACDF4D8)
 F (.\drivers\wdog.c)(0x5A1B839C)(-c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I .\common -I .\cpu -I .\drivers -I .\user -I .\RTE\Device\Include -I .\RAbuild-I.\RTE\_Target_1-IM:\Keil_v5\ARM\PACK\Keil\Kinetis_KEAxx_DFP\1.3.0\Device\Include-IM:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSKEAZ128xxx4 -DTRK_KEA128 -DCPU_KEA128 -DIAR-o .\objects\wdog.o --omf_browse .\objects\wdog.crf --depend .\objects\wdog.d)
 I (.\user\include.h)(0x5ACDF4D8)
@@ -1110,7 +1110,7 @@ I (.\drivers\gpio.h)(0x5A1B839C)
 I (.\drivers\gpio_icf.h)(0x5A1B839C)
 I (.\drivers\pit.h)(0x5A1B839C)
 I (.\drivers\adc.h)(0x5A1B839C)
-I (.\drivers\ftm.h)(0x5A1BE9CA)
+I (.\drivers\ftm.h)(0x5AD858A0)
 I (.\drivers\kbi.h)(0x5A1B839C)
 I (.\drivers\i2c.h)(0x5A1B839C)
 I (.\drivers\spi.h)(0x5A1B839C)
@@ -1121,7 +1121,7 @@ I (.\drivers\wdog.h)(0x5A1B839C)
 I (.\drivers\sim.h)(0x5A1BAF98)
 I (.\drivers\pmc.h)(0x5A1B839C)
 I (.\user\LQ12864.h)(0x5A1BEC84)
-I (.\user\isr.h)(0x5A1D1786)
+I (.\user\isr.h)(0x5AD87DCD)
 I (.\user\LQLED.h)(0x5A1B839C)
 I (.\user\LQKEY.h)(0x5A1B839C)
 I (.\user\LQ9AX.h)(0x5A1B839C)
@@ -1131,10 +1131,10 @@ I (.\user\MPU6050.h)(0x5A1B839C)
 I (.\user\Serial_oscilloscope.h)(0x5A1BCBA6)
 I (.\user\8700_2100.h)(0x5A1BEB82)
 I (.\RAbuild\System.h)(0x5ACDF156)
-I (.\RAbuild\Motor.h)(0x5AD1E05F)
-I (.\RAbuild\getsig.h)(0x5A9D5F5A)
-I (.\RAbuild\deal.h)(0x5ACDF1A1)
-I (.\RAbuild\spit.h)(0x5ACDF025)
+I (.\RAbuild\Motor.h)(0x5AD8887E)
+I (.\RAbuild\getsig.h)(0x5AD89B7D)
+I (.\RAbuild\deal.h)(0x5AD87853)
+I (.\RAbuild\spit.h)(0x5AD88308)
 I (.\RAbuild\bt.h)(0x5ACDF4D8)
 F (.\drivers\systick.c)(0x5A128408)(-c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I .\common -I .\cpu -I .\drivers -I .\user -I .\RTE\Device\Include -I .\RAbuild-I.\RTE\_Target_1-IM:\Keil_v5\ARM\PACK\Keil\Kinetis_KEAxx_DFP\1.3.0\Device\Include-IM:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSKEAZ128xxx4 -DTRK_KEA128 -DCPU_KEA128 -DIAR-o .\objects\systick.o --omf_browse .\objects\systick.crf --depend .\objects\systick.d)
 I (.\user\include.h)(0x5ACDF4D8)
@@ -1162,7 +1162,7 @@ I (.\drivers\gpio.h)(0x5A1B839C)
 I (.\drivers\gpio_icf.h)(0x5A1B839C)
 I (.\drivers\pit.h)(0x5A1B839C)
 I (.\drivers\adc.h)(0x5A1B839C)
-I (.\drivers\ftm.h)(0x5A1BE9CA)
+I (.\drivers\ftm.h)(0x5AD858A0)
 I (.\drivers\kbi.h)(0x5A1B839C)
 I (.\drivers\i2c.h)(0x5A1B839C)
 I (.\drivers\spi.h)(0x5A1B839C)
@@ -1173,7 +1173,7 @@ I (.\drivers\wdog.h)(0x5A1B839C)
 I (.\drivers\sim.h)(0x5A1BAF98)
 I (.\drivers\pmc.h)(0x5A1B839C)
 I (.\user\LQ12864.h)(0x5A1BEC84)
-I (.\user\isr.h)(0x5A1D1786)
+I (.\user\isr.h)(0x5AD87DCD)
 I (.\user\LQLED.h)(0x5A1B839C)
 I (.\user\LQKEY.h)(0x5A1B839C)
 I (.\user\LQ9AX.h)(0x5A1B839C)
@@ -1183,10 +1183,10 @@ I (.\user\MPU6050.h)(0x5A1B839C)
 I (.\user\Serial_oscilloscope.h)(0x5A1BCBA6)
 I (.\user\8700_2100.h)(0x5A1BEB82)
 I (.\RAbuild\System.h)(0x5ACDF156)
-I (.\RAbuild\Motor.h)(0x5AD1E05F)
-I (.\RAbuild\getsig.h)(0x5A9D5F5A)
-I (.\RAbuild\deal.h)(0x5ACDF1A1)
-I (.\RAbuild\spit.h)(0x5ACDF025)
+I (.\RAbuild\Motor.h)(0x5AD8887E)
+I (.\RAbuild\getsig.h)(0x5AD89B7D)
+I (.\RAbuild\deal.h)(0x5AD87853)
+I (.\RAbuild\spit.h)(0x5AD88308)
 I (.\RAbuild\bt.h)(0x5ACDF4D8)
 F (.\cpu\arm_cm0.c)(0x5A1BD89E)(-c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I .\common -I .\cpu -I .\drivers -I .\user -I .\RTE\Device\Include -I .\RAbuild-I.\RTE\_Target_1-IM:\Keil_v5\ARM\PACK\Keil\Kinetis_KEAxx_DFP\1.3.0\Device\Include-IM:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSKEAZ128xxx4 -DTRK_KEA128 -DCPU_KEA128 -DIAR-o .\objects\arm_cm0.o --omf_browse .\objects\arm_cm0.crf --depend .\objects\arm_cm0.d)
 I (.\common\common.h)(0x5A1BACF0)
@@ -1227,7 +1227,7 @@ I (.\RTE\Device\Include\core_cmInstr.h)(0x5625A350)
 I (.\RTE\Device\Include\cmsis_armcc.h)(0x5625A350)
 I (.\RTE\Device\Include\core_cmFunc.h)(0x5625A350)
 I (.\cpu\system_SKEAZ1284.h)(0x5A1B839C)
-F (.\RAbuild\deal.c)(0x5A9D604F)(-c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I .\common -I .\cpu -I .\drivers -I .\user -I .\RTE\Device\Include -I .\RAbuild-I.\RTE\_Target_1-IM:\Keil_v5\ARM\PACK\Keil\Kinetis_KEAxx_DFP\1.3.0\Device\Include-IM:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSKEAZ128xxx4 -DTRK_KEA128 -DCPU_KEA128 -DIAR-o .\objects\deal.o --omf_browse .\objects\deal.crf --depend .\objects\deal.d)
+F (.\RAbuild\deal.c)(0x5AD88E4D)(-c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I .\common -I .\cpu -I .\drivers -I .\user -I .\RTE\Device\Include -I .\RAbuild-I.\RTE\_Target_1-IM:\Keil_v5\ARM\PACK\Keil\Kinetis_KEAxx_DFP\1.3.0\Device\Include-IM:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSKEAZ128xxx4 -DTRK_KEA128 -DCPU_KEA128 -DIAR-o .\objects\deal.o --omf_browse .\objects\deal.crf --depend .\objects\deal.d)
 I (.\user\include.h)(0x5ACDF4D8)
 I (M:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x588B8344)
 I (M:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588B8344)
@@ -1253,7 +1253,7 @@ I (.\drivers\gpio.h)(0x5A1B839C)
 I (.\drivers\gpio_icf.h)(0x5A1B839C)
 I (.\drivers\pit.h)(0x5A1B839C)
 I (.\drivers\adc.h)(0x5A1B839C)
-I (.\drivers\ftm.h)(0x5A1BE9CA)
+I (.\drivers\ftm.h)(0x5AD858A0)
 I (.\drivers\kbi.h)(0x5A1B839C)
 I (.\drivers\i2c.h)(0x5A1B839C)
 I (.\drivers\spi.h)(0x5A1B839C)
@@ -1264,7 +1264,7 @@ I (.\drivers\wdog.h)(0x5A1B839C)
 I (.\drivers\sim.h)(0x5A1BAF98)
 I (.\drivers\pmc.h)(0x5A1B839C)
 I (.\user\LQ12864.h)(0x5A1BEC84)
-I (.\user\isr.h)(0x5A1D1786)
+I (.\user\isr.h)(0x5AD87DCD)
 I (.\user\LQLED.h)(0x5A1B839C)
 I (.\user\LQKEY.h)(0x5A1B839C)
 I (.\user\LQ9AX.h)(0x5A1B839C)
@@ -1274,13 +1274,13 @@ I (.\user\MPU6050.h)(0x5A1B839C)
 I (.\user\Serial_oscilloscope.h)(0x5A1BCBA6)
 I (.\user\8700_2100.h)(0x5A1BEB82)
 I (.\RAbuild\System.h)(0x5ACDF156)
-I (.\RAbuild\Motor.h)(0x5AD1E05F)
-I (.\RAbuild\getsig.h)(0x5A9D5F5A)
-I (.\RAbuild\deal.h)(0x5ACDF1A1)
-I (.\RAbuild\spit.h)(0x5ACDF025)
+I (.\RAbuild\Motor.h)(0x5AD8887E)
+I (.\RAbuild\getsig.h)(0x5AD89B7D)
+I (.\RAbuild\deal.h)(0x5AD87853)
+I (.\RAbuild\spit.h)(0x5AD88308)
 I (.\RAbuild\bt.h)(0x5ACDF4D8)
-F (.\RAbuild\deal.h)(0x5ACDF1A1)()
-F (.\RAbuild\getsig.c)(0x5A9D5F5A)(-c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I .\common -I .\cpu -I .\drivers -I .\user -I .\RTE\Device\Include -I .\RAbuild-I.\RTE\_Target_1-IM:\Keil_v5\ARM\PACK\Keil\Kinetis_KEAxx_DFP\1.3.0\Device\Include-IM:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSKEAZ128xxx4 -DTRK_KEA128 -DCPU_KEA128 -DIAR-o .\objects\getsig.o --omf_browse .\objects\getsig.crf --depend .\objects\getsig.d)
+F (.\RAbuild\deal.h)(0x5AD87853)()
+F (.\RAbuild\getsig.c)(0x5AD851CA)(-c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I .\common -I .\cpu -I .\drivers -I .\user -I .\RTE\Device\Include -I .\RAbuild-I.\RTE\_Target_1-IM:\Keil_v5\ARM\PACK\Keil\Kinetis_KEAxx_DFP\1.3.0\Device\Include-IM:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSKEAZ128xxx4 -DTRK_KEA128 -DCPU_KEA128 -DIAR-o .\objects\getsig.o --omf_browse .\objects\getsig.crf --depend .\objects\getsig.d)
 I (.\user\include.h)(0x5ACDF4D8)
 I (M:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x588B8344)
 I (M:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588B8344)
@@ -1306,7 +1306,7 @@ I (.\drivers\gpio.h)(0x5A1B839C)
 I (.\drivers\gpio_icf.h)(0x5A1B839C)
 I (.\drivers\pit.h)(0x5A1B839C)
 I (.\drivers\adc.h)(0x5A1B839C)
-I (.\drivers\ftm.h)(0x5A1BE9CA)
+I (.\drivers\ftm.h)(0x5AD858A0)
 I (.\drivers\kbi.h)(0x5A1B839C)
 I (.\drivers\i2c.h)(0x5A1B839C)
 I (.\drivers\spi.h)(0x5A1B839C)
@@ -1317,7 +1317,7 @@ I (.\drivers\wdog.h)(0x5A1B839C)
 I (.\drivers\sim.h)(0x5A1BAF98)
 I (.\drivers\pmc.h)(0x5A1B839C)
 I (.\user\LQ12864.h)(0x5A1BEC84)
-I (.\user\isr.h)(0x5A1D1786)
+I (.\user\isr.h)(0x5AD87DCD)
 I (.\user\LQLED.h)(0x5A1B839C)
 I (.\user\LQKEY.h)(0x5A1B839C)
 I (.\user\LQ9AX.h)(0x5A1B839C)
@@ -1327,12 +1327,12 @@ I (.\user\MPU6050.h)(0x5A1B839C)
 I (.\user\Serial_oscilloscope.h)(0x5A1BCBA6)
 I (.\user\8700_2100.h)(0x5A1BEB82)
 I (.\RAbuild\System.h)(0x5ACDF156)
-I (.\RAbuild\Motor.h)(0x5AD1E05F)
-I (.\RAbuild\getsig.h)(0x5A9D5F5A)
-I (.\RAbuild\deal.h)(0x5ACDF1A1)
-I (.\RAbuild\spit.h)(0x5ACDF025)
+I (.\RAbuild\Motor.h)(0x5AD8887E)
+I (.\RAbuild\getsig.h)(0x5AD89B7D)
+I (.\RAbuild\deal.h)(0x5AD87853)
+I (.\RAbuild\spit.h)(0x5AD88308)
 I (.\RAbuild\bt.h)(0x5ACDF4D8)
-F (.\RAbuild\getsig.h)(0x5A9D5F5A)()
+F (.\RAbuild\getsig.h)(0x5AD89B7D)()
 F (.\RAbuild\Motor.c)(0x5AD1DAD0)(-c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I .\common -I .\cpu -I .\drivers -I .\user -I .\RTE\Device\Include -I .\RAbuild-I.\RTE\_Target_1-IM:\Keil_v5\ARM\PACK\Keil\Kinetis_KEAxx_DFP\1.3.0\Device\Include-IM:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSKEAZ128xxx4 -DTRK_KEA128 -DCPU_KEA128 -DIAR-o .\objects\motor.o --omf_browse .\objects\motor.crf --depend .\objects\motor.d)
 I (.\user\include.h)(0x5ACDF4D8)
 I (M:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x588B8344)
@@ -1359,7 +1359,7 @@ I (.\drivers\gpio.h)(0x5A1B839C)
 I (.\drivers\gpio_icf.h)(0x5A1B839C)
 I (.\drivers\pit.h)(0x5A1B839C)
 I (.\drivers\adc.h)(0x5A1B839C)
-I (.\drivers\ftm.h)(0x5A1BE9CA)
+I (.\drivers\ftm.h)(0x5AD858A0)
 I (.\drivers\kbi.h)(0x5A1B839C)
 I (.\drivers\i2c.h)(0x5A1B839C)
 I (.\drivers\spi.h)(0x5A1B839C)
@@ -1370,7 +1370,7 @@ I (.\drivers\wdog.h)(0x5A1B839C)
 I (.\drivers\sim.h)(0x5A1BAF98)
 I (.\drivers\pmc.h)(0x5A1B839C)
 I (.\user\LQ12864.h)(0x5A1BEC84)
-I (.\user\isr.h)(0x5A1D1786)
+I (.\user\isr.h)(0x5AD87DCD)
 I (.\user\LQLED.h)(0x5A1B839C)
 I (.\user\LQKEY.h)(0x5A1B839C)
 I (.\user\LQ9AX.h)(0x5A1B839C)
@@ -1380,13 +1380,13 @@ I (.\user\MPU6050.h)(0x5A1B839C)
 I (.\user\Serial_oscilloscope.h)(0x5A1BCBA6)
 I (.\user\8700_2100.h)(0x5A1BEB82)
 I (.\RAbuild\System.h)(0x5ACDF156)
-I (.\RAbuild\Motor.h)(0x5AD1E05F)
-I (.\RAbuild\getsig.h)(0x5A9D5F5A)
-I (.\RAbuild\deal.h)(0x5ACDF1A1)
-I (.\RAbuild\spit.h)(0x5ACDF025)
+I (.\RAbuild\Motor.h)(0x5AD8887E)
+I (.\RAbuild\getsig.h)(0x5AD89B7D)
+I (.\RAbuild\deal.h)(0x5AD87853)
+I (.\RAbuild\spit.h)(0x5AD88308)
 I (.\RAbuild\bt.h)(0x5ACDF4D8)
-F (.\RAbuild\Motor.h)(0x5AD1E05F)()
-F (.\RAbuild\System.c)(0x5AD33A38)(-c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I .\common -I .\cpu -I .\drivers -I .\user -I .\RTE\Device\Include -I .\RAbuild-I.\RTE\_Target_1-IM:\Keil_v5\ARM\PACK\Keil\Kinetis_KEAxx_DFP\1.3.0\Device\Include-IM:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSKEAZ128xxx4 -DTRK_KEA128 -DCPU_KEA128 -DIAR-o .\objects\system.o --omf_browse .\objects\system.crf --depend .\objects\system.d)
+F (.\RAbuild\Motor.h)(0x5AD8887E)()
+F (.\RAbuild\System.c)(0x5AD88FAE)(-c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I .\common -I .\cpu -I .\drivers -I .\user -I .\RTE\Device\Include -I .\RAbuild-I.\RTE\_Target_1-IM:\Keil_v5\ARM\PACK\Keil\Kinetis_KEAxx_DFP\1.3.0\Device\Include-IM:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSKEAZ128xxx4 -DTRK_KEA128 -DCPU_KEA128 -DIAR-o .\objects\system.o --omf_browse .\objects\system.crf --depend .\objects\system.d)
 I (.\user\include.h)(0x5ACDF4D8)
 I (M:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x588B8344)
 I (M:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588B8344)
@@ -1412,7 +1412,7 @@ I (.\drivers\gpio.h)(0x5A1B839C)
 I (.\drivers\gpio_icf.h)(0x5A1B839C)
 I (.\drivers\pit.h)(0x5A1B839C)
 I (.\drivers\adc.h)(0x5A1B839C)
-I (.\drivers\ftm.h)(0x5A1BE9CA)
+I (.\drivers\ftm.h)(0x5AD858A0)
 I (.\drivers\kbi.h)(0x5A1B839C)
 I (.\drivers\i2c.h)(0x5A1B839C)
 I (.\drivers\spi.h)(0x5A1B839C)
@@ -1423,7 +1423,7 @@ I (.\drivers\wdog.h)(0x5A1B839C)
 I (.\drivers\sim.h)(0x5A1BAF98)
 I (.\drivers\pmc.h)(0x5A1B839C)
 I (.\user\LQ12864.h)(0x5A1BEC84)
-I (.\user\isr.h)(0x5A1D1786)
+I (.\user\isr.h)(0x5AD87DCD)
 I (.\user\LQLED.h)(0x5A1B839C)
 I (.\user\LQKEY.h)(0x5A1B839C)
 I (.\user\LQ9AX.h)(0x5A1B839C)
@@ -1433,14 +1433,14 @@ I (.\user\MPU6050.h)(0x5A1B839C)
 I (.\user\Serial_oscilloscope.h)(0x5A1BCBA6)
 I (.\user\8700_2100.h)(0x5A1BEB82)
 I (.\RAbuild\System.h)(0x5ACDF156)
-I (.\RAbuild\Motor.h)(0x5AD1E05F)
-I (.\RAbuild\getsig.h)(0x5A9D5F5A)
-I (.\RAbuild\deal.h)(0x5ACDF1A1)
-I (.\RAbuild\spit.h)(0x5ACDF025)
+I (.\RAbuild\Motor.h)(0x5AD8887E)
+I (.\RAbuild\getsig.h)(0x5AD89B7D)
+I (.\RAbuild\deal.h)(0x5AD87853)
+I (.\RAbuild\spit.h)(0x5AD88308)
 I (.\RAbuild\bt.h)(0x5ACDF4D8)
 F (.\RAbuild\System.h)(0x5ACDF156)()
 F (.\readme.txt)(0x5A9D628B)()
-F (.\RAbuild\spit.c)(0x5ACDF0E9)(-c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I .\common -I .\cpu -I .\drivers -I .\user -I .\RTE\Device\Include -I .\RAbuild-I.\RTE\_Target_1-IM:\Keil_v5\ARM\PACK\Keil\Kinetis_KEAxx_DFP\1.3.0\Device\Include-IM:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSKEAZ128xxx4 -DTRK_KEA128 -DCPU_KEA128 -DIAR-o .\objects\spit.o --omf_browse .\objects\spit.crf --depend .\objects\spit.d)
+F (.\RAbuild\spit.c)(0x5AD887D3)(-c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I .\common -I .\cpu -I .\drivers -I .\user -I .\RTE\Device\Include -I .\RAbuild-I.\RTE\_Target_1-IM:\Keil_v5\ARM\PACK\Keil\Kinetis_KEAxx_DFP\1.3.0\Device\Include-IM:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSKEAZ128xxx4 -DTRK_KEA128 -DCPU_KEA128 -DIAR-o .\objects\spit.o --omf_browse .\objects\spit.crf --depend .\objects\spit.d)
 I (.\user\include.h)(0x5ACDF4D8)
 I (M:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x588B8344)
 I (M:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588B8344)
@@ -1466,7 +1466,7 @@ I (.\drivers\gpio.h)(0x5A1B839C)
 I (.\drivers\gpio_icf.h)(0x5A1B839C)
 I (.\drivers\pit.h)(0x5A1B839C)
 I (.\drivers\adc.h)(0x5A1B839C)
-I (.\drivers\ftm.h)(0x5A1BE9CA)
+I (.\drivers\ftm.h)(0x5AD858A0)
 I (.\drivers\kbi.h)(0x5A1B839C)
 I (.\drivers\i2c.h)(0x5A1B839C)
 I (.\drivers\spi.h)(0x5A1B839C)
@@ -1477,7 +1477,7 @@ I (.\drivers\wdog.h)(0x5A1B839C)
 I (.\drivers\sim.h)(0x5A1BAF98)
 I (.\drivers\pmc.h)(0x5A1B839C)
 I (.\user\LQ12864.h)(0x5A1BEC84)
-I (.\user\isr.h)(0x5A1D1786)
+I (.\user\isr.h)(0x5AD87DCD)
 I (.\user\LQLED.h)(0x5A1B839C)
 I (.\user\LQKEY.h)(0x5A1B839C)
 I (.\user\LQ9AX.h)(0x5A1B839C)
@@ -1487,12 +1487,12 @@ I (.\user\MPU6050.h)(0x5A1B839C)
 I (.\user\Serial_oscilloscope.h)(0x5A1BCBA6)
 I (.\user\8700_2100.h)(0x5A1BEB82)
 I (.\RAbuild\System.h)(0x5ACDF156)
-I (.\RAbuild\Motor.h)(0x5AD1E05F)
-I (.\RAbuild\getsig.h)(0x5A9D5F5A)
-I (.\RAbuild\deal.h)(0x5ACDF1A1)
-I (.\RAbuild\spit.h)(0x5ACDF025)
+I (.\RAbuild\Motor.h)(0x5AD8887E)
+I (.\RAbuild\getsig.h)(0x5AD89B7D)
+I (.\RAbuild\deal.h)(0x5AD87853)
+I (.\RAbuild\spit.h)(0x5AD88308)
 I (.\RAbuild\bt.h)(0x5ACDF4D8)
-F (.\RAbuild\spit.h)(0x5ACDF025)()
+F (.\RAbuild\spit.h)(0x5AD88308)()
 F (.\RAbuild\bt.c)(0x5ACDF61F)(-c --cpu Cortex-M0+ -g -O0 --apcs=interwork --split_sections -I .\common -I .\cpu -I .\drivers -I .\user -I .\RTE\Device\Include -I .\RAbuild-I.\RTE\_Target_1-IM:\Keil_v5\ARM\PACK\Keil\Kinetis_KEAxx_DFP\1.3.0\Device\Include-IM:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSKEAZ128xxx4 -DTRK_KEA128 -DCPU_KEA128 -DIAR-o .\objects\bt.o --omf_browse .\objects\bt.crf --depend .\objects\bt.d)
 I (.\user\include.h)(0x5ACDF4D8)
 I (M:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x588B8344)
@@ -1519,7 +1519,7 @@ I (.\drivers\gpio.h)(0x5A1B839C)
 I (.\drivers\gpio_icf.h)(0x5A1B839C)
 I (.\drivers\pit.h)(0x5A1B839C)
 I (.\drivers\adc.h)(0x5A1B839C)
-I (.\drivers\ftm.h)(0x5A1BE9CA)
+I (.\drivers\ftm.h)(0x5AD858A0)
 I (.\drivers\kbi.h)(0x5A1B839C)
 I (.\drivers\i2c.h)(0x5A1B839C)
 I (.\drivers\spi.h)(0x5A1B839C)
@@ -1530,7 +1530,7 @@ I (.\drivers\wdog.h)(0x5A1B839C)
 I (.\drivers\sim.h)(0x5A1BAF98)
 I (.\drivers\pmc.h)(0x5A1B839C)
 I (.\user\LQ12864.h)(0x5A1BEC84)
-I (.\user\isr.h)(0x5A1D1786)
+I (.\user\isr.h)(0x5AD87DCD)
 I (.\user\LQLED.h)(0x5A1B839C)
 I (.\user\LQKEY.h)(0x5A1B839C)
 I (.\user\LQ9AX.h)(0x5A1B839C)
@@ -1540,9 +1540,9 @@ I (.\user\MPU6050.h)(0x5A1B839C)
 I (.\user\Serial_oscilloscope.h)(0x5A1BCBA6)
 I (.\user\8700_2100.h)(0x5A1BEB82)
 I (.\RAbuild\System.h)(0x5ACDF156)
-I (.\RAbuild\Motor.h)(0x5AD1E05F)
-I (.\RAbuild\getsig.h)(0x5A9D5F5A)
-I (.\RAbuild\deal.h)(0x5ACDF1A1)
-I (.\RAbuild\spit.h)(0x5ACDF025)
+I (.\RAbuild\Motor.h)(0x5AD8887E)
+I (.\RAbuild\getsig.h)(0x5AD89B7D)
+I (.\RAbuild\deal.h)(0x5AD87853)
+I (.\RAbuild\spit.h)(0x5AD88308)
 I (.\RAbuild\bt.h)(0x5ACDF4D8)
 F (.\RAbuild\bt.h)(0x5ACDF4D8)()
